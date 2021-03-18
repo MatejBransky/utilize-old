@@ -18,6 +18,7 @@
     "format": "prettier --check --write . && lerna run format",
     "commit": "git-cz",
     "bootstrap": "npx lerna bootstrap",
+    "version": "yarn format",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
     "publish:ci": "lerna publish from-package --yes"
   },
