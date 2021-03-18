@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dangmai.workspace-default-settings",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "vivaxy.vscode-conventional-commits"
+  ]
+}
