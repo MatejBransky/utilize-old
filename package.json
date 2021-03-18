@@ -11,11 +11,11 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "check-format": "lerna run check-format",
+    "check-format": "prettier --check . && lerna run check-format",
     "lint": "lerna run lint",
     "types": "lerna run types",
     "test": "lerna run test",
-    "format": "lerna run format",
+    "format": "prettier --check --write . && lerna run format",
     "commit": "git-cz",
     "bootstrap": "npx lerna bootstrap",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
@@ -24,10 +24,12 @@
   "devDependencies": {
     "@commitlint/cli": "12.0.1",
     "@commitlint/config-conventional": "12.0.1",
+    "@utilize/prettier-config": "0.0.1",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "husky": "4.3.8",
-    "lerna": "4.0.0"
+    "lerna": "4.0.0",
+    "prettier": "2.2.1"
   },
   "config": {
     "commitizen": {
@@ -44,5 +46,6 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-push": "git branch | grep \"*\" | egrep -v \"^* main$\""
     }
-  }
+  },
+  "prettier": "@utilize/prettier-config"
 }
