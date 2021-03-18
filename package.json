@@ -1,10 +1,10 @@
 {
-  "name": "@unbranded/monorepo",
+  "name": "@utilize/packages",
   "private": true,
   "author": "Matej Bransky",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MatejBransky/monorepo.git"
+    "url": "https://github.com/MatejBransky/utilize.git"
   },
   "workspaces": [
     "packages/*"
