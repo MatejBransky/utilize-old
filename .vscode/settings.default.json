@@ -6,5 +6,9 @@
   "eslint.alwaysShowStatus": true,
   "files.eol": "\n",
   "prettier.useTabs": false,
-  "conventionalCommits.scopes": ["prettier-config"]
+  "conventionalCommits.scopes": [
+    "eslint-config",
+    "prettier-config",
+    "react-router"
+  ]
 }
