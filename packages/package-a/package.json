@@ -1,0 +1,23 @@
+{
+  "name": "@unbranded/package-a",
+  "version": "1.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MatejBransky/monorepo.git",
+    "directory": "packages/package-a"
+  },
+  "scripts": {
+    "prepack": "yarn build",
+    "build": "echo \"Build me!\"",
+    "check-format": "echo \"Format is ok!\"",
+    "format": "echo \"Format me!\"",
+    "lint": "echo \"Lint me!\"",
+    "types": "echo \"Type me!\"",
+    "test": "echo \"Test me!\""
+  }
+}
