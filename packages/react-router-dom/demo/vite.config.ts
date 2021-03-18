@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [reactRefresh()],
   resolve: {
     alias: {
-      'react-router-dom': path.resolve(__dirname, '..', libPkg.source),
+      '@utilize/react-router-dom': path.resolve(__dirname, '..', libPkg.source),
     },
   },
 });
