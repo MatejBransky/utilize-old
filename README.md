@@ -4,6 +4,11 @@ Monorepo with some reusable packages (configs, libs,...).
 
 A basic [Lerna](https://lerna.js.org/) monorepo with [Yarn Workspaces](https://classic.yarnpkg.com/en/docs/workspaces/), [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) and [GitHub Actions workflow](https://github.com/features/actions) configuration to achieve fully automated package publishing to the NPM registry. As a bonus [Renovate bot](https://github.com/marketplace/renovate) keeps dependencies up to date.
 
+## Packages
+
+- [@utilize/prettier-config](./packages/prettier-config)
+- [@utilize/eslint-config](./packages/eslint-config)
+
 ## Getting Started
 
 Run `yarn` to bootstrap the packages. This will install all of their dependencies and links any cross-dependencies.
