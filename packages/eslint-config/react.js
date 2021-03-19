@@ -13,8 +13,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/no-redeclare': 'off',
-    '@typescript-eslint/no-use-before-define': ['error'],
-    // note you must disable the base rule as it can report incorrect errors
+    '@typescript-eslint/no-use-before-define': 'off',
     'no-use-before-define': 'off',
     'prettier/prettier': 'warn',
   },
