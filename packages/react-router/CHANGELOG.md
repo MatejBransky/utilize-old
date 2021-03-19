@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.2](https://github.com/MatejBransky/utilize/compare/@utilize/react-router@6.0.0-beta.1...@utilize/react-router@6.0.0-beta.2) (2021-03-19)
+
+### Bug Fixes
+
+- **react-router:** :green_heart: make public access to react-router packages ([378740a](https://github.com/MatejBransky/utilize/commit/378740af7ba9794d5979569fb1f4ccaeca3d9667))
+
 # 6.0.0-beta.1 (2021-03-18)
 
 ### Features
