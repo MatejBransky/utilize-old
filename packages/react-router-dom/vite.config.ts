@@ -22,4 +22,12 @@ export default defineConfig({
     },
   },
   plugins: [reactRefresh()],
+  resolve: {
+    alias: [
+      {
+        find: /@utilize\/(.*)/,
+        replacement: path.resolve(__dirname, '../$1/src'),
+      },
+    ],
+  },
 });
