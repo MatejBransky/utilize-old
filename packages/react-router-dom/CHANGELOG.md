@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.4](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.3...@utilize/react-router-dom@6.0.0-beta.4) (2021-03-19)
+
+**Note:** Version bump only for package @utilize/react-router-dom
+
 # [6.0.0-beta.3](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.2...@utilize/react-router-dom@6.0.0-beta.3) (2021-03-19)
 
 ### Bug Fixes
