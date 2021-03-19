@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.6](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.5...@utilize/react-router-dom@6.0.0-beta.6) (2021-03-19)
+
+### Bug Fixes
+
+- **react-router:** :bug: include src folder in published react-router ([b2ab408](https://github.com/MatejBransky/utilize/commit/b2ab4089ff1dbbc7623df9c2661419aa80960610))
+
 # [6.0.0-beta.5](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.4...@utilize/react-router-dom@6.0.0-beta.5) (2021-03-19)
 
 ### Bug Fixes
