@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/MatejBransky/utilize/compare/@utilize/eslint-config@1.1.2...@utilize/eslint-config@1.1.3) (2021-03-19)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-config-prettier to v8 ([5c5126a](https://github.com/MatejBransky/utilize/commit/5c5126a7611a0a2072f64bcbcb972548d6c4d3c4))
+
 ## [1.1.2](https://github.com/MatejBransky/utilize/compare/@utilize/eslint-config@1.1.1...@utilize/eslint-config@1.1.2) (2021-03-19)
 
 ### Bug Fixes
