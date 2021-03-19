@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.5](https://github.com/MatejBransky/utilize/compare/@utilize/react-router@6.0.0-beta.4...@utilize/react-router@6.0.0-beta.5) (2021-03-19)
+
+### Bug Fixes
+
+- **react-router:** :bug: add location prop to Routes and RouteOptions to useRoutes ([193db79](https://github.com/MatejBransky/utilize/commit/193db79c2826c36d8cac3e099f7062cd9ebcff5c))
+
 # [6.0.0-beta.4](https://github.com/MatejBransky/utilize/compare/@utilize/react-router@6.0.0-beta.3...@utilize/react-router@6.0.0-beta.4) (2021-03-19)
 
 **Note:** Version bump only for package @utilize/react-router

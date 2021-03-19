@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.8](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.7...@utilize/react-router-dom@6.0.0-beta.8) (2021-03-19)
+
+### Bug Fixes
+
+- **react-router:** :bug: be aware of state in `to` object ([6a28a57](https://github.com/MatejBransky/utilize/commit/6a28a574782ec8fefd0669f7c26fa87a771a4ebf))
+- **react-router:** :label: ignore wrong type failure ([f9cf213](https://github.com/MatejBransky/utilize/commit/f9cf21378b34c6ba2178268cb651fbcd3e0bef66))
+
 # [6.0.0-beta.7](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.6...@utilize/react-router-dom@6.0.0-beta.7) (2021-03-19)
 
 **Note:** Version bump only for package @utilize/react-router-dom
