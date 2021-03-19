@@ -112,6 +112,7 @@ function Gallery() {
             pathname: `/img/${i.id}`,
             // This is the trick! This link sets
             // the `background` in location state.
+            // @ts-ignore
             state: { background: location },
           }}
         >
