@@ -1,11 +1,7 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: [
-    'react-app',
-    'prettier/@typescript-eslint',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['react-app', 'prettier', 'plugin:prettier/recommended'],
   settings: {
     react: {
       version: 'latest',
