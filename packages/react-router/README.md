@@ -6,6 +6,8 @@ It's a **temporary** replacement for react-router v6 until these issues will be 
 
 - https://github.com/ReactTraining/react-router/pull/7571
 
+_It doesn't publish different versions for prod/dev environment._
+
 How to install
 
 ```
