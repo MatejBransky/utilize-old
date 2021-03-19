@@ -8,6 +8,8 @@ A basic [Lerna](https://lerna.js.org/) monorepo with [Yarn Workspaces](https://c
 
 - [@utilize/prettier-config](./packages/prettier-config)
 - [@utilize/eslint-config](./packages/eslint-config)
+- **TEMPORARY** [@utilize/react-router](./packages/react-router)
+- **TEMPORARY** [@utilize/react-router-dom](./packages/react-router-dom)
 
 ## Getting Started
 
