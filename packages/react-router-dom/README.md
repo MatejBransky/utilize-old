@@ -1,4 +1,4 @@
-# @utilize/react-router
+# @utilize/react-router-dom
 
 Temporary fork of the [`react-router` v6](https://github.com/ReactTraining/react-router/tree/dev).
 
@@ -6,14 +6,16 @@ It's a **temporary** replacement for react-router v6 until these issues will be 
 
 - https://github.com/ReactTraining/react-router/pull/7571
 
+Online demo: https://utilize.vercel.app (WIP)
+
 How to install
 
 ```
-npm install @utilize/react-router
+npm install @utilize/react-router-dom history
 ```
 
 or with Yarn:
 
 ```
-yarn add @utilize/react-router
+yarn add @utilize/react-router-dom history
 ```
