@@ -165,13 +165,15 @@ export interface LinkProps
  */
 export const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
   function LinkWithRef(
-    { onClick, replace: replaceProp = false, state, target, to, ...rest },
+    { onClick, replace: replaceProp = false, target, to, ...rest },
     ref
   ) {
     let href = useHref(to);
     let navigate = useNavigate();
     let location = useLocation();
     let path = useResolvedPath(to);
+    // @ts-ignore
+    let state = rest.state || (typeof to === 'object' ? to.state : undefined);
 
     function handleClick(event: React.MouseEvent<HTMLAnchorElement>) {
       if (onClick) onClick(event);
