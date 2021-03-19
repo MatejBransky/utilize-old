@@ -19,7 +19,7 @@
     "commit": "git-cz",
     "bootstrap": "npx lerna bootstrap",
     "version": "yarn format",
-    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
+    "version:ci": "lerna version --yes --exact --conventional-commits --create-release github --message 'chore(release): publish'",
     "publish:ci": "lerna publish from-package --yes"
   },
   "devDependencies": {
