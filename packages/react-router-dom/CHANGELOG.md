@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.3](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.2...@utilize/react-router-dom@6.0.0-beta.3) (2021-03-19)
+
+### Bug Fixes
+
+- **react-router:** :bug: fix aliases in react-router demo ([e957d97](https://github.com/MatejBransky/utilize/commit/e957d974bf84472179d1717ec6c18ad493aa9d94))
+
 # [6.0.0-beta.2](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.1...@utilize/react-router-dom@6.0.0-beta.2) (2021-03-19)
 
 ### Bug Fixes
