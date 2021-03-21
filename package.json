@@ -44,8 +44,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "git branch | grep \"*\" | egrep -v \"^* main$\""
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "prettier": "@utilize/prettier-config"
