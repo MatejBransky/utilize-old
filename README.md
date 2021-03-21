@@ -14,7 +14,7 @@ A basic [Lerna](https://lerna.js.org/) monorepo with [Yarn Workspaces](https://c
 Package | Description | Version | License
 --- | --- | --- | ---
 [@utilize/eslint-config](./packages/eslint-config) | Default ESLint config | [![npm (scoped)](https://img.shields.io/npm/v/@utilize/eslint-config)](https://www.npmjs.com/package/@utilize/eslint-config) | [![license](https://img.shields.io/badge/license-MIT-97ca00)](./packages/eslint-config/LICENSE)
-[@utilize/prettier-config](./packages/prettier-config) |  | [![npm (scoped)](https://img.shields.io/npm/v/@utilize/prettier-config)](https://www.npmjs.com/package/@utilize/prettier-config) | [![license](https://img.shields.io/badge/license-MIT-97ca00)](./packages/prettier-config/LICENSE)
+[@utilize/prettier-config](./packages/prettier-config) | Default Prettier config | [![npm (scoped)](https://img.shields.io/npm/v/@utilize/prettier-config)](https://www.npmjs.com/package/@utilize/prettier-config) | [![license](https://img.shields.io/badge/license-MIT-97ca00)](./packages/prettier-config/LICENSE)
 [@utilize/react-router](./packages/react-router) | Temporary fork of react-router v6 | [![npm (scoped)](https://img.shields.io/npm/v/@utilize/react-router)](https://www.npmjs.com/package/@utilize/react-router) | [![license](https://img.shields.io/badge/license-MIT-97ca00)](./packages/react-router/LICENSE)
 [@utilize/react-router-dom](./packages/react-router-dom) | Temporary fork of react-router v6 | [![npm (scoped)](https://img.shields.io/npm/v/@utilize/react-router-dom)](https://www.npmjs.com/package/@utilize/react-router-dom) | [![license](https://img.shields.io/badge/license-MIT-97ca00)](./packages/react-router-dom/LICENSE)
 <!-- Packages: END -->

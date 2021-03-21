@@ -1,5 +1,6 @@
 {
   "name": "@utilize/prettier-config",
+  "description": "Default Prettier config",
   "version": "1.0.2",
   "repository": {
     "type": "git",
