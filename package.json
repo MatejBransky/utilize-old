@@ -18,6 +18,7 @@
     "format": "prettier --check --write \"{,!(packages)/**/*}\" && lerna run format --parallel",
     "commit": "git-cz",
     "bootstrap": "npx lerna bootstrap",
+    "update:readme": "node scripts/update-readme.mjs",
     "version": "yarn format",
     "version:ci": "lerna version --yes --exact --conventional-commits --create-release github --message 'chore(release): publish'",
     "publish:ci": "lerna publish from-package --yes"
