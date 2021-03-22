@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.18](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.17...@utilize/react-router-dom@6.0.0-beta.18) (2021-03-22)
+
+### Bug Fixes
+
+- **react-router:** :label: enhance types for useLocation and useParams ([549bc20](https://github.com/MatejBransky/utilize/commit/549bc20559fda8e6eac5b34eef00ed95de09cfe2))
+
 # [6.0.0-beta.17](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.16...@utilize/react-router-dom@6.0.0-beta.17) (2021-03-22)
 
 **Note:** Version bump only for package @utilize/react-router-dom
