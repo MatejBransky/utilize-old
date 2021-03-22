@@ -6,7 +6,7 @@ It's a **temporary** replacement for react-router v6 until these issues will be 
 
 - https://github.com/ReactTraining/react-router/pull/7571
 
-Online demo: https://utilize.vercel.app
+Online demo: https://utilize-react-router.vercel.app
 
 _It doesn't publish different versions for prod/dev environment._
 
