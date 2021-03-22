@@ -3,10 +3,10 @@ import {
   BrowserHistory,
   HashHistory,
   State,
-  To,
   createBrowserHistory,
   createHashHistory,
   createPath,
+  To,
 } from 'history';
 import {
   MemoryRouter,
@@ -32,6 +32,14 @@ import {
   matchPath,
   resolvePath,
 } from '@utilize/react-router';
+
+// TODO: apply PR to the `history` package which fixes `PartialPath` type
+// react-router-dom v5: https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/react-router-dom/index.d.ts#L61
+declare module 'history' {
+  interface PartialPath {
+    state?: State;
+  }
+}
 
 function warning(cond: boolean, message: string): void {
   if (!cond) {
@@ -157,6 +165,7 @@ export interface LinkProps
   extends Omit<React.AnchorHTMLAttributes<HTMLAnchorElement>, 'href'> {
   replace?: boolean;
   state?: State;
+  // TODO: this type should be updated in `history` package
   to: To;
 }
 
@@ -172,7 +181,6 @@ export const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
     let navigate = useNavigate();
     let location = useLocation();
     let path = useResolvedPath(to);
-    // @ts-ignore
     let state = rest.state || (typeof to === 'object' ? to.state : undefined);
 
     function handleClick(event: React.MouseEvent<HTMLAnchorElement>) {

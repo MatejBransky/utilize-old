@@ -350,7 +350,7 @@ export function useInRouterContext(): boolean {
  *
  * @see https://reactrouter.com/api/useLocation
  */
-export function useLocation(): Location {
+export function useLocation<T extends State = State>(): Location<T | null> {
   invariant(
     useInRouterContext(),
     // TODO: This error is probably because they somehow have 2 versions of the
@@ -358,7 +358,7 @@ export function useLocation(): Location {
     `useLocation() may be used only in the context of a <Router> component.`
   );
 
-  return React.useContext(LocationContext).location as Location;
+  return React.useContext(LocationContext).location as Location<T | null>;
 }
 
 /**
@@ -462,7 +462,7 @@ export function useOutlet(): React.ReactElement | null {
  *
  * @see https://reactrouter.com/api/useParams
  */
-export function useParams(): Params {
+export function useParams<K extends string = string>(): Params<K> {
   return React.useContext(RouteContext).params;
 }
 
@@ -649,7 +649,7 @@ export function createRoutesFromChildren(
 /**
  * The parameters that were parsed from the URL path.
  */
-export type Params = Record<string, string>;
+export type Params<K extends string = string> = Record<K, string>;
 
 /**
  * A route object represents a logical route, with (optionally) its child

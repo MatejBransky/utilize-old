@@ -1,4 +1,5 @@
 import React from 'react';
+import { Location } from 'history';
 import {
   Routes,
   Route,
@@ -22,7 +23,8 @@ export default function ModalGalleryExample() {
 }
 
 function ModalSwitch() {
-  let location = useLocation();
+  // https://github.com/ReactTraining/react-router/pull/7326#issuecomment-626418225
+  let location = useLocation<{ background: Location }>();
 
   // This piece of state is set when one of the
   // gallery links is clicked. The `background` state
@@ -31,10 +33,8 @@ function ModalSwitch() {
   // use it as the location for the <Routes> so
   // we show the gallery in the background, behind
   // the modal.
-  // @ts-ignore
-  let background = location.state && location.state.background;
-  // @ts-ignore
-  console.log('ModalSwitch', location.state?.background);
+  let background = location.state?.background;
+
   return (
     <div>
       <Routes location={background || location}>
@@ -59,7 +59,7 @@ const IMAGES = [
   { id: 4, title: 'Crimson', color: 'Crimson' },
 ];
 
-function Thumbnail({ color }) {
+function Thumbnail({ color }: { color: string }) {
   return (
     <div
       style={{
@@ -71,7 +71,7 @@ function Thumbnail({ color }) {
   );
 }
 
-function Image({ color }) {
+function Image({ color }: { color: string }) {
   return (
     <div
       style={{
@@ -112,7 +112,6 @@ function Gallery() {
             pathname: `/img/${i.id}`,
             // This is the trick! This link sets
             // the `background` in location state.
-            // @ts-ignore
             state: { background: location },
           }}
         >
@@ -145,7 +144,7 @@ function Modal() {
 
   if (!image) return null;
 
-  let back = (e) => {
+  let back = (e: React.MouseEvent<HTMLElement, MouseEvent>) => {
     e.stopPropagation();
     navigate(-1);
   };
