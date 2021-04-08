@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.8](https://github.com/MatejBransky/utilize/compare/@utilize/eslint-config@1.1.7...@utilize/eslint-config@1.1.8) (2021-04-08)
+
+**Note:** Version bump only for package @utilize/eslint-config
+
 ## [1.1.7](https://github.com/MatejBransky/utilize/compare/@utilize/eslint-config@1.1.6...@utilize/eslint-config@1.1.7) (2021-03-27)
 
 **Note:** Version bump only for package @utilize/eslint-config
