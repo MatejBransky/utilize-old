@@ -1,7 +1,7 @@
 {
   "name": "@utilize/eslint-config",
   "description": "Default ESLint config",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "repository": {
     "type": "git",
     "url": "git@github.com:MatejBransky/utilize.git",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@utilize/prettier-config": "1.0.4",
-    "eslint": "7.23.0",
+    "eslint": "7.24.0",
     "prettier": "2.2.1",
     "typescript": "4.2.4"
   },
