@@ -38,6 +38,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Opening pull request
         id: pull
         uses: tretuna/sync-branches@1.2.0
