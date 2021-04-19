@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.10](https://github.com/MatejBransky/utilize/compare/@utilize/eslint-config@1.1.9...@utilize/eslint-config@1.1.10) (2021-04-19)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-config-prettier to ^8.1.0 ([f044648](https://github.com/MatejBransky/utilize/commit/f0446486e7faa8e24ea51a483f1bb71d07b5555f))
+- **deps:** update dependency eslint-plugin-flowtype to ^5.4.0 ([a346b12](https://github.com/MatejBransky/utilize/commit/a346b12422d92747e43e98ea6bf94235b2f3569c))
+
 ## [1.1.9](https://github.com/MatejBransky/utilize/compare/@utilize/eslint-config@1.1.8...@utilize/eslint-config@1.1.9) (2021-04-13)
 
 **Note:** Version bump only for package @utilize/eslint-config
