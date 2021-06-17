@@ -500,9 +500,10 @@ export function useRoutes(
     `useRoutes() may be used only in the context of a <Router> component.`
   );
 
-  let routes = React.useMemo(() => createRoutesFromArray(partialRoutes), [
-    partialRoutes,
-  ]);
+  let routes = React.useMemo(
+    () => createRoutesFromArray(partialRoutes),
+    [partialRoutes]
+  );
 
   return useRoutes_(routes, { basename, location });
 }
@@ -963,8 +964,11 @@ function safelyDecodeURIComponent(value: string, paramName: string) {
  * @see https://reactrouter.com/api/resolvePath
  */
 export function resolvePath(to: To, fromPathname = '/'): Path {
-  let { pathname: toPathname, search = '', hash = '' } =
-    typeof to === 'string' ? parsePath(to) : to;
+  let {
+    pathname: toPathname,
+    search = '',
+    hash = '',
+  } = typeof to === 'string' ? parsePath(to) : to;
 
   let pathname = toPathname
     ? resolvePathname(

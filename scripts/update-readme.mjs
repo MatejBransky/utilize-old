@@ -44,7 +44,8 @@ const rootReadme = fs.readFileSync(
   'utf-8'
 );
 
-const regex = /(<!--\sPackages:\sSTART\s-->)(.|\n)*(<!--\sPackages:\sEND\s-->)/gm;
+const regex =
+  /(<!--\sPackages:\sSTART\s-->)(.|\n)*(<!--\sPackages:\sEND\s-->)/gm;
 
 const newRootReadme = rootReadme.replace(
   regex,
