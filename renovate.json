@@ -1,5 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", "group:allNonMajor"],
-  "baseBranches": ["dev"]
+  "extends": ["config:base"],
+  "baseBranches": ["dev"],
+  "packageRules": [
+    {
+      "matchCurrentVersion": ">= 1.0.0",
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-breaking updates",
+      "groupSlug": "non-breaking"
+    }
+  ]
 }
