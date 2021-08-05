@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0-beta.33](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.32...@utilize/react-router-dom@6.0.0-beta.33) (2021-08-05)
+
+### Bug Fixes
+
+- **react-router:** :package: add sideEffects: false ([b63eff6](https://github.com/MatejBransky/utilize/commit/b63eff62dc7b2c90601fb3badfa54e46528680f0))
+
 # [6.0.0-beta.32](https://github.com/MatejBransky/utilize/compare/@utilize/react-router-dom@6.0.0-beta.31...@utilize/react-router-dom@6.0.0-beta.32) (2021-06-17)
 
 **Note:** Version bump only for package @utilize/react-router-dom
