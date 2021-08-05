@@ -7,6 +7,7 @@
   "source": "./src/index.tsx",
   "main": "./dist/react-router-dom.umd.js",
   "module": "./dist/react-router-dom.es.js",
+  "sideEffects": false,
   "exports": {
     ".": {
       "import": "./dist/react-router-dom.es.js",
